@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Socket.IO game</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      
+      canvas {
+        display: block;
+        margin: 10px auto;
+        border: 1px black solid;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game" width="500" height="500"></canvas>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
